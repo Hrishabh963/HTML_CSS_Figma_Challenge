@@ -596,10 +596,13 @@ button {
         grid-template-columns: repeat(5, 10%);
         grid-template-rows: repeat(25, 10%);
         row-gap: 1%;
+        /* column-gap: 0; */
+        /* justify-content: center; */
+        margin-left: 10%;
     }
     .person {
         box-shadow: 0px 10px 10px 0px grey;
-        grid-column: 1/5;
+        grid-column: 1/6;
         grid-row: 1/4;
     }
     .frontend {
@@ -607,13 +610,13 @@ button {
         border-radius: 10px;
         box-shadow: 10px 10px 10px 1px grey;
         background-color: white;
-        grid-column: 1/5;
+        grid-column: 1/6;
         grid-row: 4/6;
         display: flex;
         flex-flow: column;
     }
     .design {
-        grid-column: 1/5;
+        grid-column: 1/6;
         grid-row: 6/6;
     }
     .projects {
@@ -621,12 +624,12 @@ button {
         grid-row: 7/7;
     }
     .project_content1 {
-        grid-column: 1/5;
+        grid-column: 1/6;
         grid-row: 7/10;
         flex-flow: column;
     }
     .project_content2 {
-        grid-column: 1/5;
+        grid-column: 1/6;
         grid-row: 10/13;
         flex-flow: column;
     }
@@ -641,7 +644,7 @@ button {
         flex-flow: column;
     }
     .hobbies {
-        grid-column: 1/5;
+        grid-column: 1/6;
         grid-row: 16/20;
     }
     .blogs {
